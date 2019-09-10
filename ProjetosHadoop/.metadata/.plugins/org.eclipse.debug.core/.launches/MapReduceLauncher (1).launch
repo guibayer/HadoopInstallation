@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/newproject/src/classifier/MapReduceLauncher.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="classifier.MapReduceLauncher"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="file:///localhost:9000&#13;&#10;Params/params.txt&#13;&#10;Header/Skin.header&#13;&#10;Database/Skin.data&#13;&#10;RuleBase/&#13;&#10;Input&#13;&#10;Output"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="newproject"/>
+</launchConfiguration>

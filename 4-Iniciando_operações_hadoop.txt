@@ -1,0 +1,6 @@
+*comando  ###Qual máquina  
+
+
+$HADOOP_PREFIX/bin/hdfs namenode -format <cluster_name>   ####Namenode
+$HADOOP_PREFIX/sbin/start-dfs.sh   ####Namenode
+$HADOOP_PREFIX/sbin/start-yarn.sh   ####ResourceManager

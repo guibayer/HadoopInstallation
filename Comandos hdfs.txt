@@ -1,0 +1,5 @@
+bin/hadoop fs -rm (arquivo)
+bin/hadoop fs -ls file:////(listar arquivos locais)
+bin/hadoop fs -mkdir -p (diretório a ser criado)
+bin/hadoop fs -copyFromLocal /home/hduser/teste(arquivo a ser copiado) in(Destino) -----Local para Hdfs
+bin/hadoop fs -copyToLocal in/teste(arquivo a ser copiado) /home/hduser(Destino)-----Hdfs para local

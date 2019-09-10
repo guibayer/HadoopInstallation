@@ -1,0 +1,8 @@
+@relation unknown
+@attribute B integer[0,255]
+@attribute G integer[0,255]
+@attribute R integer[0,255]
+@attribute class{1,2}
+@inputs B,G,R
+@outputs class
+@numInstancesByClass 50859,194198

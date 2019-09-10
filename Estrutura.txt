@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------
+---------							 Detalhes e Setup Inicial				     	----------------
+----------------------------------------------------------------------------------------------------
+
+1 NameNode(1 Núcleo, 1GB de RAM)(IP:192.168.217.146)
+1 Secondarynamenode(1 Núcleo, 1GB de RAM)(IP:192.168.217.150)
+2 Datanode(1 Núcleo, 1GB de RAM)(IP:(datanode2)192.168.217.149;(datanode3)192.168.217.153)
+
+Setup com ubuntu-14.10-server-amd64:
+Todos com usuário padrão hduser, sem usuário root.
+Ntp: ntp.br
+Utilizando Todo disco com LVM
+Criado com apenas /home
+*Não esquecer de escolher um mirror
+Opções de pacotes:Instalar Openssh-server
+Nome do VolumeGroup:(nome da maquina, mesmo setado no host)-vg(utilizando todo disco)
+Kernel:linux-generic-lts-vivid
+
+WebAccess:
+http://192.168.217.146:50070/  --- NameNode
+http://192.168.217.146:8088/   --- ResourceManager
+

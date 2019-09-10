@@ -1,0 +1,3 @@
+http://toodey.com/2015/08/10/hadoop-installation-on-windows-without-cygwin-in-10-mints/
+https://shuyo.wordpress.com/2011/03/08/hadoop-development-environment-with-eclipse/
+https://www.youtube.com/watch?v=IBzcRpN9Zo4

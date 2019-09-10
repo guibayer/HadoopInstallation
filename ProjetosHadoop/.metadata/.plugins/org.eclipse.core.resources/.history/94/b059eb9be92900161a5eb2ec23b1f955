@@ -1,0 +1,5 @@
+package com.hadooptest;
+
+public class RecordCount {
+
+}

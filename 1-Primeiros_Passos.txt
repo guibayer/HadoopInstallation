@@ -1,0 +1,38 @@
+----------------------------------------------------------------------------------------------------
+---------								Configuração Básica						    ----------------
+----------------------------------------------------------------------------------------------------
+sudo groupadd hadoop
+sudo adduser hduser
+sudo adduser hduser hadoop
+sudo chown -R hduser:hadoop /usr/local/hadoop
+sudo chown -R hduser:hadoop /var/hdfs
+su -s
+sudo apt-get install rsync
+sudo apt-get install default-jdk
+sudo wget http://ftp.unicamp.br/pub/apache/hadoop/common/hadoop-2.7.1/hadoop-2.7.1.tar.gz
+sudo tar -xzf hadoop-2.7.1.tar.gz
+mv hadoop-2.7.1 /usr/local/hadoop
+
+
+
+----------------------------------------------------------------------------------------------------
+---------							Configuração SSH					 		    ----------------
+----------------------------------------------------------------------------------------------------
+
+ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
+cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
+export HADOOP\_PREFIX=/usr/local/hadoop
+
+
+----------------------------------------------------------------------------------------------------
+---------					Pré Configuração Hadoop					 			    ----------------
+----------------------------------------------------------------------------------------------------
+Setar local de instalação do Hadoop(Chechar versão instalada do Java)
+sudo nano /usr/local/hadoop/etc/hadoop/hadoop-env.sh
+# set to the root of your Java installation
+  export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+
+Atualizar em /etc/hosts(Endereços necessários)
+
+
+
